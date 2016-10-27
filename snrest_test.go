@@ -24,7 +24,7 @@ type Task struct {
 }
 
 func TestRestClient(t *testing.T) {
-	c := snrest.New("softpointdev2", "m.kirchweger@softpoint.at", "!2softpoint")
+	c := snrest.New("softpointdev2", "xxxx", "xxxxxx")
 	/*t.Run("GetKeys", func(t *testing.T) {
 		p := snrest.JsonV2Params{Query: "active=true"}
 		k, err := c.GetKeys("incident", p)
